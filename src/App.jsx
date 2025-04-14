@@ -39,6 +39,7 @@ import {
   TextField,
   Theme,
 } from "@radix-ui/themes";
+import { X } from "lucide-react";
 
 const App = () => {
   return (
@@ -61,6 +62,20 @@ const App = () => {
             </Slider.Track>
             <Slider.Thumb className="SliderThumb" aria-label="Volume" />
           </Slider.Root>
+          <Box height="100px">123</Box>
+          <Box height={{ md: "100vh", xl: "600px" }}>456</Box>
+          <Flex gap="3" align="center">
+            <Button size="1" variant="soft">
+              Edit profile
+            </Button>
+            <Button size="2" variant="soft">
+              Edit profile
+            </Button>
+            <Button size="3" variant="soft">
+              Edit profile
+            </Button>
+          </Flex>
+          <X className="h-4 w-4" />
         </Flex>
       </div>
     </Theme>
