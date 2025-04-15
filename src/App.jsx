@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./App.css";
 // import { Theme } from "@radix-ui/themes";
 // import { Flex, Text, Button } from "@radix-ui/themes";
@@ -63,7 +64,7 @@ const App = () => {
             <Slider.Thumb className="SliderThumb" aria-label="Volume" />
           </Slider.Root>
           <Box height="100px">123</Box>
-          <Box height={{ md: "100vh", xl: "600px" }}>456</Box>
+          <Box height={{ md: "20vh", xl: "600px" }}>456</Box>
           <Flex gap="3" align="center">
             <Button size="1" variant="soft">
               Edit profile
