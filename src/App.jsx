@@ -1,10 +1,7 @@
 import React from "react";
 
 import "./App.css";
-// import { Theme } from "@radix-ui/themes";
-// import { Flex, Text, Button } from "@radix-ui/themes";
-// import { FaceIcon, ImageIcon, SunIcon } from "@radix-ui/react-icons";
-// import { ArrowRightIcon } from "@radix-ui/react-icons";
+
 import { Slider } from "radix-ui";
 import {
   ArrowDownIcon,
