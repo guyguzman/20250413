@@ -20,6 +20,26 @@
   background-color: #0056b3;
 }
 
+#root {
+  /* Assuming your React app mounts to the 'root' div in index.html */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Ensure container takes full viewport height */
+  gap: 1rem; /* Add space between the buttons */
+}
+
+.radix-button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: white;
+  border: 1px solid #ccc;
+  color: #333;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
 .SliderRoot {
   position: relative;
   display: flex;

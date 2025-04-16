@@ -41,14 +41,37 @@ import { X } from "lucide-react";
 
 const App = () => {
   return (
-    <Theme accentColor="crimson" grayColor="sand" radius="large" scaling="50%">
+    // <Theme accentColor="crimson" grayColor="sand" radius="large" scaling="50%">
+    <Theme accentColor="crimson">
       <div className="app">
+        <button
+          data-accent-color=""
+          type="button"
+          aria-haspopup="dialog"
+          aria-expanded="false"
+          aria-controls="radix-:R3g7t6:"
+          data-state="closed"
+          class="rt-reset rt-BaseButton rt-r-size-3 rt-variant-solid rt-Button"
+        >
+          Open
+        </button>
         <Flex direction="column" gap="2">
           <Text>Hello from Radix Themes :)</Text>
           <Button>Let's go</Button>
           <Button variant="soft">
             Get started <ArrowRightIcon />
           </Button>
+          <button
+            data-accent-color=""
+            type="button"
+            aria-haspopup="dialog"
+            aria-expanded="false"
+            aria-controls="radix-:R3g7t6:"
+            data-state="closed"
+            class="rt-reset rt-BaseButton rt-r-size-3 rt-variant-solid rt-Button"
+          >
+            Open
+          </button>
           <Slider.Root
             className="SliderRoot"
             defaultValue={[50]}
